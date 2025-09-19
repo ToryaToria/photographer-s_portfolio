@@ -1,118 +1,66 @@
 .text-nav {
-  @include font($size: 12px, $weight: 600, $upper: uppercase, $spacing: 0.5px);
+  @include font($size: 20px, $line-height: 50px);
   text-decoration: none;
-}
-
-.text-caption {
-  @include font-decor($size: 24px);
 }
 
 .title {
-  @include font(
-    $size: 32px,
-    $line-height: 150%,
-    $weight: 600,
-    $spacing: 6px,
-    $upper: uppercase,
-    $color: $color-white
-  );
-}
+  @include font-tittle($size: 60px);
 
-.text-btn {
-  @include font(
-    $size: 12px,
-    $weight: 600,
-    $upper: uppercase,
-    $color: $color-white,
-    $spacing: 0.7px
-  );
-  text-decoration: none;
-}
-
-.section-title {
-  @include font(
-    $size: 24px,
-    $line-height: 152%,
-    $weight: 600,
-    $spacing: 4px,
-    $upper: uppercase,
-    $color: $color-black
-  );
+  @include media-tablet {
+    font-weight: 400;
+  }
 }
 
 .text-base {
-  @include font($size: 16px, $line-height: 148%, $spacing: 0);
+  @include font($size: 20px);
 }
 
-.text-slider {
-  @include font(
-    $size: 80px,
-    $line-height: 100%,
-    $weight: 600,
-    $spacing: 0,
-    $upper: uppercase,
-    $color: $color-white
-  );
+.text-btn {
+  @include font($size: 20px, $color: $color-black);
+  text-decoration: none;
 }
 
-.text-tag {
-  @include font(
-    $size: 12px,
-    $weight: 600,
-    $upper: uppercase,
-    $color: $color-tag-1
-  );
+.title-section {
+  @include font-tittle($size: 40px);
 
-  &--2 {
-    color: $color-tag-2;
-  }
-
-  &--3 {
-    color: $color-tag-3;
+  @include media-tablet {
+    font-size: 32px;
   }
 }
-.text-number {
-  @include font(
-    $size: 24px,
-    $line-height: 152%,
-    $weight: 600,
-    $spacing: 1.5px,
-    $upper: uppercase,
-    $color: $color-white
-  );
+
+.title-skills {
+  @include font($size: 20px, $weight: 600);
 }
 
-.text-data {
-  @include font(
-    $size: 12px,
-    $weight: 600,
-    $upper: uppercase,
-    $color: $color-white
-  );
+.text-mini {
+  @include font($size: 18px);
+
+  @include media-tablet {
+    line-height: 100%;
+  }
 }
 
-.text-contact {
-  @include font(
-    $size: 24px,
-    $line-height: 152%,
-    $weight: 600,
-    $spacing: 4px,
-    $upper: uppercase,
-    $color: $color-black
-  );
+.text-tab {
+  @include font($size: 20px, $color: $color-primary);
+  text-decoration: none;
 }
 
-.title-card {
-  @include font(
-    $size: 16px,
-    $line-height: 152%,
-    $weight: 600,
-    $spacing: 1.5px,
-    $upper: uppercase,
-    $color: $color-black
-  );
+.title-price {
+  @include font-tittle($size: 28px);
 }
 
-// .subtitle} {
-// @include font($size: 28px, $color: $color-white, $spacing: 3.55px);
-// }
+.subtitle-price {
+  @include font-tittle($size: 24px, $color: $color-primary);
+}
+
+.text-plaseholder {
+  @include font($size: 20px, $color: $color-primary);
+}
+
+.text-footer {
+  @include font($size: 20px, $color: $color-primary);
+  
+   @include media-tablet {
+    line-height: 100%;
+  }
+}

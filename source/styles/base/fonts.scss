@@ -1,33 +1,44 @@
 /* ===================== шрифты. подключение =============== */
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   src:
-    url("../../fonts/Montserrat-Regular.woff2") format("woff2"),
-    url("../../fonts/Montserrat-Regular.woff") format("woff");
+    url("../../fonts//inter_cyrillic-regular.woff2") format("woff2"),
+    url("../../fonts/inter_cyrillic-regular.woff") format("woff");
 
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Merriweather";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   src:
-    url("../../fonts/Montserrat-SemiBold.woff2") format("woff2"),
-    url("../../fonts/Montserrat-SemiBold.woff") format("woff");
+     url("../../fonts/Merriweather-Bold.woff2") format("woff2"),
+    url("../../fonts/Merriweather-Bold.woff") format("woff");
 
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Allura";
+  font-family: "inter";
   font-style: normal;
   font-weight: 400;
   src:
-    url("../../fonts/Allura-Regular.woff2") format("woff2"),
-    url("../../fonts/Allura-Regular.woff") format("woff");
+    url("../../fonts/inter_cyrillic-regular.woff2") format("woff2"),
+    url("../../fonts/inter_cyrillic-regular.woff") format("woff");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("../../fonts/inter_cyrillic-700.woff2") format("woff2"),
+    url("../../fonts/inter_cyrillic-700.woff") format("woff");
 
   font-display: swap;
 }

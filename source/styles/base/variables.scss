@@ -1,21 +1,13 @@
 // FONTS
 
-$font-base: "Montserrat", arial, sans-serif;
-$font-decor: "Allura", Garamond, serif;
+$font-base: "inter", arial, sans-serif;
+$font-title: "Merriweather", Garamond, serif;
 
 // COLORS
-$color-black: #181C29;
+$color-black: #000000;
 $color-white: #ffffff;
-$color-white-40: rgba(255, 255, 255, 0.4);
-$color-white-20: rgba(255, 255, 255, 0.2);
 
-
-$color-primary: #ff4646;
-$color-content-bg: #ECF3F8;
-
-$color-tag-1: #4361FF;
-$color-tag-2: #06A44F;
-$color-tag-3: #FF43F7;
+$color-primary: #BDAE82;
 
 
 
@@ -27,4 +19,4 @@ $color-overlay: rgba(24, 28, 41, 0.8);
 // WIDTH
 $desktop-width: 1440px;
 $tablet-width: 768px;
-$mobile-width: 380px;
+// $mobile-width: 380px;

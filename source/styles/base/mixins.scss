@@ -1,11 +1,9 @@
 @mixin font(
   $font: $font-base,
   $size,
-  $line-height: 130%,
+  $line-height: 200%,
   $weight: 400,
-  $color: $color-black,
-  $spacing: 1px,
-  $upper: none
+  $color: $color-white
 ) {
   margin-top: 0;
   margin-bottom: 0;
@@ -14,17 +12,14 @@
   line-height: $line-height;
   font-weight: $weight;
   color: $color;
-  letter-spacing: $spacing;
-  text-transform: $upper;
 }
 
-@mixin font-decor(
-  $font: $font-decor,
+@mixin font-tittle(
+  $font: $font-title,
   $size,
-  $line-height: 100%,
-  $weight: 400,
-  $color: $color-white,
-  $spacing: 1px
+  $line-height: 200%,
+  $weight: 600,
+  $color: $color-primary,
 ) {
   margin-top: 0;
   margin-bottom: 0;
@@ -33,7 +28,6 @@
   line-height: $line-height;
   font-weight: $weight;
   color: $color;
-  letter-spacing: $spacing;
 }
 
 @mixin list-reset($padd-left: 0) {
@@ -61,11 +55,11 @@
   }
 }
 
-@mixin media-mobile {
-  @media (max-width: $mobile-width) {
-    @content;
-  }
-}
+// @mixin media-mobile {
+//   @media (max-width: $mobile-width) {
+//     @content;
+//   }
+// }
 
 @mixin icon {
   mask-repeat: no-repeat;
