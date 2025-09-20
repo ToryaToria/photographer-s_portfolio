@@ -1,5 +1,6 @@
 .container {
   box-sizing: border-box;
+    max-width: $desktop-width;
 
   margin: 0 auto;
   padding-left: 20px;

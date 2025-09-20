@@ -1,0 +1,15 @@
+.button {
+  box-sizing: border-box;
+  display: block;
+  padding: 8px 10px;
+  min-width: 220px;
+  background-color: $color-primary;
+  color: $color-black;
+  border: 2px solid $color-primary;
+  cursor: pointer;
+
+  &--not-active {
+    background-color: transparent;
+    color: $color-primary;
+  }
+}

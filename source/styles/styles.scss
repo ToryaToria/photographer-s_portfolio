@@ -9,12 +9,23 @@
 @import "./base/mixins";
 @import "./base/fonts";
 @import "./base/fonts-styles";
-// @import "./base/page";
+@import "./base/page";
 @import "./base/visually-hidden";
 @import "./base/container";
 
 // Blocks ---------------------------------
-// @import "./blocks/header.scss";
+@import "./blocks/button.scss";
+
+@import "./blocks/header.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/skills.scss";
+@import "./blocks/portfolio.scss";
+@import "./blocks/video.scss";
+@import "./blocks/price.scss";
+@import "./blocks/contact.scss";
+@import "./blocks/form.scss";
+
+@import "./blocks/footer.scss";
 
 
 

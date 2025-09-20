@@ -4,7 +4,7 @@
 }
 
 .title {
-  @include font-tittle($size: 60px);
+  @include font-tittle($size: 60px, $color: $color-white);
 
   @include media-tablet {
     font-weight: 400;
@@ -46,19 +46,19 @@
 }
 
 .title-price {
-  @include font-tittle($size: 28px);
+  @include font-tittle($size: 28px, $color: $color-white);
 }
 
 .subtitle-price {
   @include font-tittle($size: 24px, $color: $color-primary);
 }
 
-.text-plaseholder {
+.text-field {
   @include font($size: 20px, $color: $color-primary);
 }
 
 .text-footer {
-  @include font($size: 20px, $color: $color-primary);
+  @include font($size: 20px, $color: $color-white);
   
    @include media-tablet {
     line-height: 100%;

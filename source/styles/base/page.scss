@@ -5,11 +5,13 @@
 }
 
 .page__body {
-  // position: relative;
+  position: relative;
   margin: 0 auto;
-  min-width: $mobile-width;
+  // min-width: $mobile-width;
 
-  background-color: $color-white;
+  // background-color: $color-white;
+    background-color: $color-black;
+
 
   /*  для стики-футера */
   // display: flex;
@@ -22,6 +24,6 @@
 //   flex-grow: 1;
 // }
 
-// * {
-//   outline: auto;
-// }
+* {
+  outline: auto;
+}
