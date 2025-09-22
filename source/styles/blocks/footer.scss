@@ -9,6 +9,26 @@
   justify-content: space-between;
 }
 
+.footer__link {
+  transition: color 300ms ease-in-out 0s;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    outline: auto;
+  }
+
+  &:hover {
+    color: $color-primary;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
 .footer__social-list {
   @include list-reset;
   display: flex;
@@ -32,6 +52,23 @@
   mask-size: auto;
   mask-position: center;
   mask-repeat: no-repeat;
+
+  transition: background-color 300ms ease-in-out 0s;
+
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    outline: auto;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
 }
 
 .footer__social-link--inst {

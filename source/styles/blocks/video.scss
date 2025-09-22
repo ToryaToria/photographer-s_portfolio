@@ -23,15 +23,33 @@
   transform: translate(-50%, -50%);
 
   display: block;
-  width: 130px;
-  height: 130px;
+  width: 132px;
+  height: 132px;
 
   cursor: pointer;
 
   background-color: $color-white;
 
-  mask-size: auto;
+  mask-size: 97% 97%;
   mask-position: center;
   mask-repeat: no-repeat;
   mask-image: url(../../icons/Play_hover.svg);
+
+  transition: background-color 300ms ease-in-out 0s,
+    opacity 300ms ease-in-out 0s;
+
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    outline: auto;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
 }

@@ -37,12 +37,6 @@
   list-style: none;
 }
 
-// @mixin btn-reset {
-//   padding: 0;
-//   border: none;
-//   background-color: transparent;
-// }
-
 @mixin media-desktop {
   @media (max-width: $desktop-width) {
     @content;

@@ -1,6 +1,6 @@
 .price {
    padding-top: 100px;
-  // padding-bottom: 20px;
+  padding-bottom: 100px;
 }
 
 .price__title {
@@ -33,5 +33,7 @@ margin-bottom: 20px;
 
 .price__list-features {
   @include list-reset;
+  margin-bottom: 40px;  
+
   
 }

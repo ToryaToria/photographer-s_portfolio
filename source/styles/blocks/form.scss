@@ -9,7 +9,21 @@
   background-color: transparent;
   border: 2px solid $color-primary;
 
+  transition: background-color 300ms ease-in-out 0s;
+
   &::placeholder {
     @include font($size: 20px, $color: $color-primary);
+  }
+
+  &:focus {
+    outline: none;
+  }
+  &:focus-visible {
+    outline: auto;
+  }
+
+  &:hover {
+    outline: 3px solid $color-primary;
+    color: $color-white;
   }
 }

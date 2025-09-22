@@ -28,6 +28,24 @@
   }
 }
 
+.title-section--line {
+  margin: 0 auto;
+  width: 700px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: $color-primary;
+  }
+}
+
 .title-skills {
   @include font($size: 20px, $weight: 600);
 }
@@ -59,8 +77,9 @@
 
 .text-footer {
   @include font($size: 20px, $color: $color-white);
-  
-   @include media-tablet {
+  text-decoration: none;
+
+  @include media-tablet {
     line-height: 100%;
   }
 }
